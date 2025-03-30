@@ -1,0 +1,22 @@
+{
+    "campaigns": [
+      {
+        "id": 1,
+        "title": "حملة ترميم مدرسة القرية",
+        "description": "هذه الحملة تهدف إلى جمع تبرعات لترميم المدرسة الابتدائية في قرية النور التي تعاني من تشققات في الجدران وتسربات في الأسقف.",
+        "goalAmount": 50000,
+        "raisedAmount": 32500,
+        "donationsCount": 128,
+        "imageUrl": "https://via.placeholder.com/800x400?text=حملة+ترميم+مدرسة"
+      },
+      {
+        "id": 2,
+        "title": "حملة إفطار صائم",
+        "description": "حملة لتوفير وجبات إفطار للمحتاجين خلال شهر رمضان المبارك.",
+        "goalAmount": 20000,
+        "raisedAmount": 15400,
+        "donationsCount": 85,
+        "imageUrl": "https://via.placeholder.com/800x400?text=حملة+إفطار+صائم"
+      }
+    ]
+  }

@@ -1,0 +1,92 @@
+.donation-widget {
+    font-family: 'Arial', sans-serif;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .organization-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .donation-amount-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  .currency-symbol {
+    font-size: 28px;
+    font-weight: bold;
+    color: #27ae60;
+    margin-right: 8px;
+  }
+  
+  .donation-amount {
+    width: 120px;
+    padding: 12px 15px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    color: #2c3e50;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .donation-amount:focus {
+    border-color: #27ae60;
+  }
+  
+  .donate-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #27ae60;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .donate-button:hover {
+    background-color: #219653;
+    transform: translateY(-2px);
+  }
+  
+  .donate-button:active {
+    transform: translateY(0);
+  }
+  
+  .donate-button.donating {
+    background-color: #7f8c8d;
+    cursor: not-allowed;
+  }
+  
+  /* تصميم متجاوب */
+  @media (max-width: 480px) {
+    .donation-widget {
+      padding: 20px;
+      width: 90%;
+    }
+    
+    .organization-name {
+      font-size: 20px;
+    }
+    
+    .donation-amount {
+      width: 100px;
+      font-size: 20px;
+    }
+  }
